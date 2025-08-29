@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bubbles App - Testing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <!-- Canvas where circle + arrow will be drawn -->
+    <canvas id="canvas" width="700" height="420" aria-label="Bubbles App canvas"></canvas>
+
+    <!-- Control buttons -->
+    <div class="controls">
+      <button id="hitBtn" class="primary" title="Make the arrow fly toward the circle">Hit</button>
+      <button id="resetBtn" title="Reset the app to the initial state">Reset</button>
+    </div>
+
+    <!-- Small info text -->
+    <div class="hint">Canvas, plain JavaScript &amp; HTML. One canvas, no libraries.</div>
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
