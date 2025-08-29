@@ -1,15 +1,3 @@
-// ==================================================
-//  BUBBLES APP (Canvas + Plain JavaScript)
-//  Features:
-//   - Draw a circle on left side with random color
-//   - Draw an arrow on right side
-//   - "Hit" button moves arrow towards circle
-//   - Arrow stops & circle changes color on collision
-//   - "Reset" button restores initial state
-// ==================================================
-
-// --------------------- Utilities ---------------------
-
 // Generate random integer between min & max
 function randInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -170,3 +158,4 @@ window.addEventListener('keydown', (e) => {
   }
   if (e.key.toLowerCase() === 'r') resetBtn.click();
 });
+
