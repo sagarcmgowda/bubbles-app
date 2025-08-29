@@ -18,4 +18,33 @@ It was created as part of a manual tester assignment.
 
 ---
 
-##  Project Structure
+---
+
+## 🚀 How to Run
+1. Download or clone the project folder.
+2. Open **index.html** in any modern browser (Chrome, Edge, Firefox, Safari).
+3. Play with the app:
+   - Click **Hit** to fire the arrow.
+   - Watch the circle change color on hit.
+   - Click **Reset** to restart.
+   - (Optional) Click inside the canvas to move the circle vertically.
+
+---
+
+## 🎨 Example Preview
+Canvas when loaded initially:
+
+After pressing **Hit**, the arrow moves left, and if it collides with the circle, the circle changes color.
+
+---
+
+## 📂 Requirements
+- No external libraries are needed.
+- Works in any modern browser that supports `<canvas>`.
+
+---
+
+## ✨ Extra Notes
+- Code is fully commented for clarity.
+- Canvas is drawn with a **black border** (as per assignment requirement).
+- Can be easily extended with multiple bubbles, scoring, or animations.
